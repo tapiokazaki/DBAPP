@@ -1,0 +1,88 @@
+/* App.css */
+.App {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+h1{
+  position: fixed;
+  top: 20vh;
+}
+
+
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+  line-height: 1.6;
+}
+
+.settings-button {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  /* その他のスタイリング */
+}
+
+.settings {
+  position: fixed;
+  top: 40px;
+  right: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 175px; /* タブのサイズを大きくする */
+  /* その他のスタイリング */
+}
+
+/* 並び替えモードのTodo項目のスタイル */
+li.sortable {
+  cursor: pointer;
+  background-color: #b0e0e6;
+  font-weight: bold; /* フォントを太くする */
+  color: #333333; /* フォントの色を濃くする */
+}
+
+/* 選択されたTodo項目のスタイル */
+li.selected {
+  background-color: #007bff; /* 背景色 */
+  font-weight: bold; /* フォントを太くする */
+  color: #333333; /* フォントの色を濃くする */
+}
+
+.button-small {
+  padding: 3px 6px; /* より小さなパディング */
+  font-size: 0.7em; /* より小さなフォントサイズ */
+  border: 1px solid #d9534f; /* ボーダーの色を変更 */
+  background-color: #f2dede; /* 背景色を変更 */
+  color: #d9534f; /* テキストの色を変更 */
+}
+
+.button-small:hover {
+  background-color: #e4b9b9; /* ホバー時の背景色を変更 */
+}
